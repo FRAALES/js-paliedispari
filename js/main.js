@@ -23,6 +23,7 @@ console.log(somma);
 
 
 //Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione).
+let risultato = ''; 
 function stabilisciSommaPariDispari (){
     
     if (somma % 2 === 0){

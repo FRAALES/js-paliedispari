@@ -37,12 +37,12 @@ function stabilisciSommaPariDispari (somma){
 
 //Stabiliscilo per davvero:
 
-const risultato = stabilisciSommaPariDispari(somma);
+const risultatoPariODispari = stabilisciSommaPariDispari(somma);
 
 
 //Dichiariamo chi ha vinto:
 
-if (sceltaUtentePariODispari === risultato){
+if (sceltaUtentePariODispari === risultatoPariODispari){
     console.log('hai vinto');
 } else {
     console.log('hai perso');

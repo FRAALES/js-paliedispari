@@ -23,23 +23,21 @@ console.log(somma);
 
 
 //Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione).
-let risultato = ''; 
-function stabilisciSommaPariDispari (){
+
+function stabilisciSommaPariDispari (somma){
     
     if (somma % 2 === 0){
-        console.log('pari'); 
+        return 'pari'; 
     } else {
-        console.log('dispari');
+        return 'dispari';
     };
 
-    let risultato = 'pari' || 'dispari';
 
-    return risultato;
 };
 
 //Stabiliscilo per davvero:
 
-stabilisciSommaPariDispari(somma);
+const risultato = stabilisciSommaPariDispari(somma);
 
 
 //Dichiariamo chi ha vinto:

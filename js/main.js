@@ -1,6 +1,6 @@
 //Pari e Dispari
 //L’utente sceglie pari o dispari 
-let sceltaUtentePariODispari = (prompt ("Pari o Dispari?"));
+let sceltaUtentePariODispari = (prompt ("pari o dispari?"));
 console.log(sceltaUtentePariODispari);
 
 //e inserisce un numero da 1 a 5:
@@ -39,7 +39,7 @@ stabilisciSommaPariDispari(somma);
 
 //Dichiariamo chi ha vinto:
 
-if (sceltaUtentePariODispari = stabilisciSommaPariDispari){
+if (sceltaUtentePariODispari === stabilisciSommaPariDispari){
     console.log('hai vinto');
 } else {
     console.log('hai perso');

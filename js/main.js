@@ -1,6 +1,6 @@
 //Pari e Dispari
 //L’utente sceglie pari o dispari 
-let sceltaUtentePariODispari = (prompt ("pari o ispari?"));
+let sceltaUtentePariODispari = (prompt ("pari o dispari?"));
 console.log(sceltaUtentePariODispari);
 
 //e inserisce un numero da 1 a 5:
